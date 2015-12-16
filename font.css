@@ -1,0 +1,225 @@
+ @font-face{
+    font-family: "Open Sans";
+    src: url('open-sans/OpenSans-Regular.ttf');
+  }
+  @font-face {
+    font-family: "Open Sans Light";
+    src: url('open-sans/OpenSans-Light.ttf');
+  }
+
+
+  @font-face {
+    font-family: "Glober Bold";
+    src: url('glober/globerBold.otf');
+  }
+  @font-face {
+    font-family: "Glober Thin";
+    src: url('glober/globerThin.otf');
+  }
+  @font-face {
+    font-family: "Glober Semi Bold";
+    src: url('glober/globerSemiBold.otf');
+  }
+
+  h3{
+    font-family: "Glober Thin";
+  }
+  button{
+    font-family: "Open Sans";
+    background-color: transparent;
+    border: 1px solid #222;
+  }
+
+  h1{
+    font-family: "Open Sans Light";
+    font-weight: 300;
+  }
+  h3{
+    font-family: "Glober Thin";
+    font-weight: 200;
+  }
+
+
+  p{
+    font-family: "Open Sans";
+    font-weight: lighter;
+    text-align: justify;
+  }
+
+
+#subitle{
+  font-family: "Glober Semi Bold";
+  text-transform: uppercase;
+  font-weight: 180%; 
+  color: #ccc;
+}
+
+#title{
+  font-family: "Glober Semi Bold";
+  font-weight: 180%; 
+  color: #ccc; 
+}
+
+.divButton >a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.divButton >a:hover{
+  text-decoration: none;
+  color: #FFB90E;
+}
+
+.lead{
+  font-family: "Glober Thin";
+}
+
+
+.center{
+  float:none; margin:0 auto
+}
+
+
+/* ********************************************************************/
+
+.header{
+  background-image: url(img/grape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28em;
+  border-bottom: 1px solid #FFF;
+  padding-top: 4em;
+}
+
+.main-title
+{
+  color: #fff;
+  font-weight: 300;
+  font-size: 400%;
+  padding: 50px;
+}
+
+.getstarted{
+  margin-bottom: 50px;
+  border-radius: 0px;
+}
+
+.btn{
+  border-radius: 0px;
+  font-family: "Open Sans Light";
+}
+
+.below{
+  float: none;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.img{
+  max-height: 8em;
+  max-width: 8em;
+}
+
+.thumbnail{
+  border: 0px;
+}
+
+
+.nav-bar{
+  background-image: none;
+}
+
+.icon {
+    font-size:6em; 
+    border-radius:20%;
+    border:1px solid #1976D2;
+    padding:30px;
+    color: #1976D2;
+}
+
+.accbtn{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.footer{
+  min-height: 8em;
+  border-top: 5px solid orange;
+  background-color: #FF9800;
+}
+
+.min-footer{
+  background-color: #93A3AD;
+  min-height: 3em;
+  background-color: #EF9004;
+  padding: 10px; 
+}
+
+.signupBody{
+  background-color: #F5F5F5;
+  padding: 2em;
+
+}
+
+.navbar-default{
+  background-color: #1976D2;
+  background-image: none;
+  color: #fff;
+  border: none;
+  border-radius: 0px; 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #030033;
+}
+
+.navbar-default .navbar-nav > a, .navbar-default .navbar-nav >   
+ a{
+  color: #fff;
+ }
+
+ .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
+.navbar-default .container .navbar-header a {
+  color: #fff;
+}
+
+.icon-bar{
+  background-color: #1976D2;
+  color: #fff;
+}
+
+.navbar-toggle{
+  color: #fff;
+  background-color: transparent;
+}
+
+.lower-links{
+  font-size: 100%;
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+.lower-links a{
+  color: #000;
+  text-decoration: none;
+}
+
+.lower-links a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.morelinks{
+  padding: 30px;
+}
